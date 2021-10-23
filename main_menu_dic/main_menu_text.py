@@ -3,8 +3,9 @@ def game_name_text():
 
 
 def menu_option_text():
+    from_to = 0
     menu_list = ['1. Start', '2. Statistic', '3. Exit']
-    return menu_list
+    return from_to, menu_list
 
 
 def question_about_selected_option_text():
