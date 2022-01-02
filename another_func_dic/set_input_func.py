@@ -3,4 +3,3 @@ def set_input(input_text, separator=None):
         print(input_text)
     else:
         print(*input_text, sep=separator)
-
